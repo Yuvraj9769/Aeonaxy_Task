@@ -15,7 +15,7 @@ const Sidebar = ({ sidebar, setsidebar }) => {
       </span>
 
       <div
-        className={`transition-left bg-slate-50 duration-500 flex flex-col lg:hidden items-center justify-between px-1 py-3 fixed w-screen h-screen top-0  z-20 ${
+        className={`transition-left bg-slate-50 duration-500 flex flex-col lg:hidden items-center gap-y-6 px-1 py-3 fixed w-screen h-screen top-0  z-20 ${
           sidebar ? "left-0" : "left-[-110%]"
         }`}
       >
